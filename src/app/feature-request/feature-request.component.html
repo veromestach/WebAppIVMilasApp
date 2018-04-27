@@ -1,0 +1,11 @@
+<div class="ui large form segment">
+  <h3 class="ui header">Add feature request</h3>
+  <div class="field">
+    <label for="name">Name:</label> 
+    <input id="name" name="name" #newrequestname>
+  </div>
+  <button (click)="addRequest(newrequestname)"
+  	    class="ui positive right floated button">
+    feature request 
+  </button>
+</div>
